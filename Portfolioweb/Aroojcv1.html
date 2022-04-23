@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Arooj CV</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+   <div class="toggle" onclick="toggleMenu();"></div> 
+   <section class="banner" id="home">
+		<div class="imgSidder">
+			<img src="aroojcv.jpeg">
+		</div>
+		<div class="contentBx">
+			<h5 class="logoText">My Portfolio</h5>
+			<div>
+				<h4><span>Hello</span>, I'am</h4>
+				<h2>Arooj Khalid</h2>
+				<h4>I'm a Front Web Developer.</h4>
+				<p>I have 2+ years of experience in Web Development and have designed many one-page websites. I've always wanted to make things look good and eye-catchy to grab the audience. So the same thing I follow in my designs although it is a PowerPoint Slides or an HTML Landin Page. -Experienced in website builders like WordPress/ Wix. -Expert in creating websites from scratch through Html code. /* WordPress /* Wix /* Html5 /* CSS3 /* Bootstrap4 My focus is YOU! Get in touch with me.</p>
+				<a href="#" class="btn">About Me</a>
+			</div>
+			<ul class="sci">
+				<li><a href="https://www.facebook.com/arooj.bhatti.01" target="blank"><img src="facebook.png"></a></li>
+				<li><a href="https://www.linkedin.com/in/arooj-khalid-43608a21a/" target="blank"><img src="linkedin.png"></a></li>
+				<li><a href="https://www.instagram.com/arooj_k7/" target="blank"><img src="instagram.png"></a></li>
+	
+			</ul>	
+		</div>
+	</section >
+
+	<section class="about" id="about">
+		<div class="title white">
+		<h2>About Me</h2>
+        <p>
+		   Think Out of the Box!
+		</p>
+		</div>
+		<div class="content">
+			<div class="textBx">
+               <p>A fresh graduate Seeking a challenging position in the field of Information Technology by 
+				channelizing my technical knowledge and skills to ensure personal and professional
+				growth and to contribute to the prosperity of the organization. <br> <br> with a bachelor’s degree in Computer Science, majoring in
+				programming and web development. I have consistently proven my ability to meet
+				deadlines and achieve project objectives. Seeking a position in the field of Computer
+				Science where I can utilize my skills to contribute towards the prosperity of the organization. </p>
+			</div>
+			<div class="imgBx">
+				<img src="bg1.jpeg">
+			</div>
+		</div>
+	</section>
+
+	<section class="services" id="services">
+		<div class="title">
+			<h2>MyServices</h2>
+			<p>
+				A designer knows he has achieved perfection not 
+				when there is nothing left to add, 
+				but when there is nothing left to take away.
+			</p>
+		</div>
+		<div class="content">
+			<div class="serviceBx">
+				<img src="coding.png">
+				<h2>Web Development</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					 Quia aliquam eaque sequi distinctio eveniet possimus, 
+					 velit eos ullam veritatis repellendus harum consectetur 
+					 facere  nihil mollitia commodi veniam recusandae qui temporibus.</p>
+			</div>
+			<div class="serviceBx">
+				<img src="ux.png">
+				<h2>Web Design</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					 Quia aliquam eaque sequi distinctio eveniet possimus, 
+					 velit eos ullam veritatis repellendus harum consectetur 
+					 facere  nihil mollitia commodi veniam recusandae qui temporibus.</p>
+			</div>
+			<div class="serviceBx">
+				<img src="tripod.png">
+				<h2>Photography</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					 Quia aliquam eaque sequi distinctio eveniet possimus, 
+					 velit eos ullam veritatis repellendus harum consectetur 
+					 facere  nihil mollitia commodi veniam recusandae qui temporibus.</p>
+			</div>
+			<div class="serviceBx">
+				<img src="movie.png">
+				<h2>Video Editing</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					 Quia aliquam eaque sequi distinctio eveniet possimus, 
+					 velit eos ullam veritatis repellendus harum consectetur 
+					 facere  nihil mollitia commodi veniam recusandae qui temporibus.</p>
+			</div>
+			<div class="serviceBx">
+				<img src="blog.png">
+				<h2>Content Writing</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					 Quia aliquam eaque sequi distinctio eveniet possimus, 
+					 velit eos ullam veritatis repellendus harum consectetur 
+					 facere  nihil mollitia commodi veniam recusandae qui temporibus.</p>
+			</div>
+		</div>
+
+	</section>
+
+	<div class="sidbar">
+		<ul class="menu">
+			<li><a href="#home" onclick="toggleMenu();"> Home</a></li>
+			<li><a href="#about" onclick="toggleMenu();"> About</a></li>
+			<li><a href="#services"onclick="toggleMenu();" > Services</a></li>
+			<li><a href="#" onclick="toggleMenu();"> Work</a></li>
+			<li><a href="#"onclick="toggleMenu();"> Contact Me</a></li>
+		</ul>
+	</div>
+
+		<script>
+			function toggleMenu(){
+				const menuToggle = document.querySelector('.toggle');
+				const sidbar = document.querySelector('.sidbar');
+				menuToggle.classList.toggle('active')
+				sidbar.classList.toggle('active')
+			
+			}
+		</script>
+
+	
+
+ 
+</body>
+</html>
